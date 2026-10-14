@@ -1,0 +1,107 @@
+/* ==========================================================================
+   D FASHION — Design System Tokens & Variables
+   Modern Streetwear Aesthetic: Black, White & Desert Sand Beige
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Streetwear Monochrome & Sand Earth Tones */
+  --color-black: #0c0c0c;
+  --color-black-pure: #000000;
+  --color-black-elevated: #151515;
+  --color-black-subtle: #212121;
+  --color-black-border: #2e2e2e;
+  
+  --color-white: #ffffff;
+  --color-white-off: #fdfdfc;
+  --color-white-muted: #e5e5e0;
+
+  --color-sand-50: #faf7f2;
+  --color-sand-100: #f4eee2;
+  --color-sand-200: #e8dcce;
+  --color-sand-300: #d8c7b4;
+  --color-sand-400: #c2ad97;
+  --color-sand-500: #a9927d;
+  --color-sand-600: #88725d;
+  
+  --color-accent-gold: #cfa86e;
+  --color-accent-amber: #e09f58;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-hover: #20ba5a;
+  --color-whatsapp-dark: #128c7e;
+
+  --color-sale: #d90429;
+  --color-sale-light: #ffccd5;
+  --color-tag-new: #0c0c0c;
+  
+  /* Text Colors */
+  --text-primary: #0c0c0c;
+  --text-secondary: #555555;
+  --text-muted: #7e7e7e;
+  --text-light: #ffffff;
+  --text-light-muted: #aaaaaa;
+
+  /* Surfaces & Backgrounds */
+  --bg-primary: #fdfcf9;
+  --bg-secondary: #f4eee2;
+  --bg-card: #ffffff;
+  --bg-dark: #0e0e0e;
+  --bg-dark-card: #171717;
+  --bg-glass: rgba(253, 252, 249, 0.85);
+  --bg-glass-dark: rgba(12, 12, 12, 0.85);
+
+  /* Borders & Dividers */
+  --border-light: #ebe5db;
+  --border-medium: #d4c8b8;
+  --border-dark: #2a2a2a;
+
+  /* Typography */
+  --font-display: 'Syne', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  /* Spacing Scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  /* Layout */
+  --container-max: 1360px;
+  --container-padding: clamp(1rem, 4vw, 2.5rem);
+  --header-height: 74px;
+  --ticker-height: 38px;
+  
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.12);
+  --shadow-float: 0 12px 30px rgba(0, 0, 0, 0.22);
+  --shadow-whatsapp: 0 8px 24px rgba(37, 211, 102, 0.35);
+
+  /* Border Radii */
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Z-Index Hierarchy */
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-header: 500;
+  --z-floating: 800;
+  --z-drawer: 900;
+  --z-modal: 1000;
+  --z-toast: 1100;
+}
